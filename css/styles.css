@@ -1,0 +1,18 @@
+#walrus-showing {
+  display: none;
+  z-index: 0;
+}
+#walrus-hiding {
+  display: none;
+  z-index: 0;
+}
+.clickable {
+  cursor: pointer;
+  color: #0088cc;
+}
+.clickable:hover {
+  text-decoration: underline;
+}
+.button {
+  display: none;
+}
