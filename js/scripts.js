@@ -43,7 +43,7 @@ $(document).ready(function() {
     $("body").addClass("red-background");
   });
   $("p#intro").click(function() {
-    $("p#intro").addClass("outline");
+    $("p#intro").toggleClass("outline");
   });
 
 });
