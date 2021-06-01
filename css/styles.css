@@ -1,3 +1,4 @@
+/* Walrus Page */
 #walrus-showing {
   display: none;
   z-index: 0;
@@ -16,3 +17,89 @@
 .button {
   display: none;
 }
+.container {
+  display: overflow;
+  padding-bottom: 100px;
+}
+.green-background {
+  background-color:lightblue;
+}
+.yellow-background {
+  background-color: rgb(99, 89, 89);
+}
+
+.red-background {
+  background-color:rgb(88, 54, 54);
+}
+.btn-success {
+  background-color: rgb(74, 106, 196);
+  border-color: blue;
+}
+.btn-warning {
+  background-color: lightgray;
+  border-color: lightgrey;
+} 
+.btn-danger {
+  background-color: rgb(138, 90, 90);
+  border-color: brown;
+}
+.btn-success:hover {
+  background-color: rgb(28, 52, 117);
+  border-color: blue;
+}
+.btn-warning:hover {
+  background-color: rgb(88, 79, 79);
+  border-color: lightgrey;
+} 
+.btn-danger:hover {
+  background-color: rgb(105, 59, 59);
+  border-color: brown;
+}
+.outline {
+  border: solid 3px blue;
+  padding: 10%;
+  background: rgb(204, 236, 248);
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
+}
+
+/* Colors Page */
+/* .container {
+  display: overflow;
+  padding-bottom: 100px;
+}
+.green-background {
+  background-color:lightblue;
+}
+
+.yellow-background {
+  background-color: white;
+}
+
+.red-background {
+  background-color:Brown;
+}
+.btn-success {
+  background-color: rgb(74, 106, 196);
+  border-color: blue;
+}
+.btn-warning {
+  background-color: lightgray;
+  border-color: lightgrey;
+} 
+.btn-danger {
+  background-color: rgb(138, 90, 90);
+  border-color: brown;
+}
+.btn-success:hover {
+  background-color: rgb(28, 52, 117);
+  border-color: blue;
+}
+.btn-warning:hover {
+  background-color: rgb(88, 79, 79);
+  border-color: lightgrey;
+} 
+.btn-danger:hover {
+  background-color: rgb(105, 59, 59);
+  border-color: brown;
+} */

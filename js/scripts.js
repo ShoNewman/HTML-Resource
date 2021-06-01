@@ -17,13 +17,33 @@ $(document).ready(function() {
   $(".clickable").click(function() {
     $("#walrus-showing").toggle('slow');
     $("#walrus-hidden").toggle('slow');
-    $("#hideImg").toggle();
-    $("#showImg").toggle();
-    $("img").slideOut('slow');
-  })
+  });
   $('.button').click(function() {
     $("#walrus-showing").toggle('slow');
-    $("#walrus-hidden").toggle('slow');
-  })
+    $("#walrus-hidden").toggle('slow'); 
+  });
+  $('button#removebackground').click(function() {
+    $('body').removeClass();
+  });
   
+
+  // Colors page
+  $("button#green").click(function() {
+    $("body").removeClass();
+    $("body").addClass("green-background");
+  });
+
+  $("button#yellow").click(function() {
+    $("body").removeClass();
+    $("body").addClass("yellow-background");
+  });
+
+  $("button#red").click(function() {
+    $("body").removeClass();
+    $("body").addClass("red-background");
+  });
+  $("p#intro").click(function() {
+    $("p#intro").addClass("outline");
+  });
+
 });
